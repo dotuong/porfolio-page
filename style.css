@@ -1,0 +1,121 @@
+html,
+body,
+header {
+  height: 100%;
+}
+
+a:link {
+color: white;
+}
+a:visited {
+color: white;
+}
+a:hover {
+color: #779998;
+}
+
+@media (max-width: 740px) {
+  html,
+  body,
+  header {
+    height: 100vh;
+  }
+}
+
+.top-nav-collapse {
+  background-color: #009FB8 !important;
+  padding-bottom: 10vw;
+}
+
+.navbar:not(.top-nav-collapse) {
+  background-color: rgba(195, 199, 201, .3);
+}
+
+@media (max-width: 991px) {
+  .navbar:not(.top-nav-collapse) {
+    background: #009FB8 !important;
+  }
+}
+
+
+header { 
+    /* The image used */
+    background-image:url(animal-avian-bird-875858.jpg);
+
+    /* Full height */
+    width: 100%;
+    max-width: 100%;
+    min-height: 100%;
+    height: auto;
+
+    /* Center and scale the image nicely */
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+h1 {
+	font-family: 'Julius Sans One', 'Georgia', serif;
+	color: white;
+	margin-left: 5vw;
+	padding-top: 6em;
+	padding-bottom: 3vw;
+	padding-left: 5vw;
+	text-align: left;
+}
+
+h2 {
+	font-family: 'Julius Sans One', 'Georgia', serif;
+	color: black;
+	padding-top: 5vw;
+	padding-bottom: 1vw;
+	text-align: center;
+}
+
+.row {
+	color: white;
+	font-family: 'Poiret One', 'Geneva', cursive;
+	margin-left: 5vw;
+	padding-bottom: 2vw;
+	text-align: center;
+}
+
+.container-intro-paragraph {
+	position: relative;
+	margin-bottom: 5vw;
+	margin-left: 5vw;
+}
+
+p {
+	color: white;
+	font-family: 'Raleway', 'Helvetica', sans-serif;
+	padding-left: 10vw;
+	padding-bottom: 1vw;
+}
+
+article {
+	font-family: 'Raleway', 'Georgia', serif;
+	font-color: black;
+	margin-left: 5vw;
+	margin-right: 2vw;
+	padding-bottom: 1vw;
+	text-align: center;
+}
+
+h3 {
+	font-weight: 200;
+	margin-left: 2vw;
+	text-align: left;
+}
+
+video, iframe {
+	height: 360px;
+	max-width: 100%;
+}
+
+ul {
+	font-family: 'Raleway', 'Georgia', serif;
+	font-color: black;
+	text-align: left;
+}
