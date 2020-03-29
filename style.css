@@ -97,8 +97,8 @@ p {
 article {
 	font-family: 'Raleway', 'Georgia', serif;
 	font-color: black;
-	margin-left: 5vw;
-	margin-right: 2vw;
+	margin-left: 10vw;
+	margin-right: 10vw;
 	padding-bottom: 1vw;
 	text-align: center;
 }
@@ -110,7 +110,6 @@ h3 {
 }
 
 video, iframe {
-	height: 360px;
 	max-width: 100%;
 }
 
@@ -118,4 +117,8 @@ ul {
 	font-family: 'Raleway', 'Georgia', serif;
 	font-color: black;
 	text-align: left;
+	position: relative;
+	padding-left: 2em;
+	padding-right: 2em;
+	text-align: center;
 }
